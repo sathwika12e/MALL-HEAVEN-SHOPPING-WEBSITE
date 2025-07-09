@@ -1,0 +1,54 @@
+.cart-image{
+    margin-top: 10px;
+    height:50px;
+    width:50px;
+    border-radius: 50px;
+}
+.headersection{
+    padding: 20px;
+    
+    background-color: rgb(238, 188, 141);
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.gendersection{
+    background-color: rgb(216, 227, 243);
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.genderimage{
+    margin-top: 10px;
+    border-radius: 100px;
+    height:100px;
+    width:100px;
+}
+.categoryimage{
+    margin-left: 8px;
+    margin-top: 5px;
+    height:140px;
+    width:120px;
+}
+.categoriesContainer{
+    height:100vh;
+    background-color: rgb(249, 227, 227);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+   justify-content: space-around;
+    margin-top: 20px;
+
+}
+.categorydiv{
+
+  
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(246, 237, 197);
+    margin-top: 10px;
+    height:190px;
+    width:140px;
+}
