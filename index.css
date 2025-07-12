@@ -1,3 +1,7 @@
+.mallheavenheading{
+    font-family:'Courier New', Courier, monospace;
+    font-size:30px;
+}
 .cart-image{
     margin-top: 10px;
     height:50px;
@@ -51,4 +55,51 @@
     margin-top: 10px;
     height:190px;
     width:140px;
+}
+.cartitemdiv{
+    display:flex;
+    flex-direction: row;
+}
+.plusminusbtn{
+    border-radius: 7px;
+    margin: 10px;
+    
+
+    height:30px;
+    width:30px;
+}
+.cartdiv{
+    display:flex;
+    flex-direction: column;
+}
+.placeorderbtn{
+    margin-bottom: 15px;
+    display: flex;
+   flex-direction: column;
+    align-self: end;
+    padding-top:5px;
+    height:30px;
+    background-color: rgb(8, 8, 238);
+    color:white;
+    border-radius: 12px;
+    
+}
+.placeorderbtn:hover{
+   margin-bottom: 15px;
+    display: flex;
+   flex-direction: column;
+    align-self: end;
+    padding-top:5px;
+    height:30px;
+    background-color: rgb(3, 3, 8);
+    color:white;
+    border-radius: 12px;
+     
+}
+.addtocartbtn{
+    color:rgb(6, 6, 16) ;
+    background-color: rgb(154, 154, 248);
+    border-radius: 10px;
+    height:30px;
+    
 }
