@@ -79,11 +79,10 @@ let categoryimage=document.createElement("img");
         categoriesContainer.textContent=""
         categoriesFunc();
         cart.push({cartimage:categoryimage.src,price:cost.textContent})
+
         console.log(cart)
        
-    lencart.textContent=cart.length;
-   
-
+console.log(cart.length)
        }
         
 
@@ -196,15 +195,14 @@ let categoryimage=document.createElement("img");
 
        bigimagediv.appendChild(addtocartbtn);
        addtocartbtn.onclick=function(){
-       alert("item added to cart")
+        alert("item added to cart")
         categoriesContainer.textContent=""
         categoriesFunc();
         cart.push({cartimage:categoryimage.src,price:cost.textContent})
-        console.log(cart)
-       
-    lencart.textContent=cart.length;
-   
-
+       if (cart.length>0){
+            lencart.textContent=cart.length
+            
+    
     }
         
   
@@ -221,7 +219,7 @@ console.log(cart.length)
 
     }
 
-  
+  } 
 categoriesFunc();
 
 } 
@@ -311,4 +309,3 @@ categoriesContainer.appendChild(totalbillpara);
  
 
 }
-
